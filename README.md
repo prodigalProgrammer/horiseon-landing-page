@@ -22,7 +22,10 @@ Here are some of the features I have implemented on the website:
 - The title has changed from 'website' to 'Horiseon: Social Solution Services'.
 - All links to images now work.
 - Alt attributes added which describe the images throughout the site.
-- HTML tags changed to more descriptive semantic tags
+- HTML tags changed to more descriptive semantic tags.
+- Consolidated many CSS selectors which reduced the size of the stylesheet.
+- Moved some selectors' positions on the stylesheet in accordance to the area they are displayed on the webpage. This will make them easier to find in case changes need to be made.
+- Adjusted the `.benifits` sections to align with the `.content` sections.
 
 ## Credits
 
