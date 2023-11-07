@@ -13,7 +13,7 @@ N/A
 
 This website is now fully accessible, with links in the Navigation Bar that take you to different areas of the page. Below the landing page image are three sections that detail the services Horiseon will help the client maintain and improve upon.
 
-There is also a side-bar for the number of benifits that come with Horiseon's assistance as a by-product. Lastly there is a footer displaying the Horiseon company name.
+There is also a side-bar for the number of benefits that come with Horiseon's assistance as a by-product. Lastly there is a footer displaying the Horiseon company name.
 
 ## Features / Changes
 
@@ -25,7 +25,7 @@ Here are some of the features I have implemented on the website:
 - HTML tags changed to more descriptive semantic tags.
 - Consolidated many CSS selectors which reduced the size of the stylesheet.
 - Moved some selectors' positions on the stylesheet in accordance to the area they are displayed on the webpage. This will make them easier to find in case changes need to be made.
-- Adjusted the `.benifits` sections to align with the `.content` sections.
+- Adjusted the `.benefits` sections to align with the `.content` sections.
 
 ## Credits
 
