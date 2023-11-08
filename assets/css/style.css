@@ -1,70 +1,101 @@
 * {
-  box-sizing: border-box;
+  box-sizing: border-box; /* Keeps elements to size stated on stylesheet. */
+  /* Removes any inherited margin or padding from ALL elements on the site. */
   padding: 0;
   margin: 0;
 }
 
 body {
+  /* Gives whole document background an off-white colour. */
   background-color: #d9dcd6;
 }
 
+/* 
+=======================================================
+NAVIGATION BAR (HEADER)
+======================================================= 
+*/
+
 header {
+  /* Adds additional space around edges of the header. */
   padding: 20px;
+  /* Font style changes according to the first font available to PC/Mac. */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  /* Gives header bluish background colour. */
   background-color: #2a607c;
+  /* Changes font colour to white. */
   color: #fff;
 }
 
 header h1 {
+  /* Allows other elements to share the same space horizontally. */
   display: inline-block;
+  /* Makes title heading larger. */
   font-size: 48px;
 }
 
-header h1 .seo {
+h1 .seo {
+  /* Highlights the 'seo' letters in Horiseon title to stand out. */
   color: #d9dcd6;
 }
 
-header nav {
+nav {
+  /* Centers the navigation links inside the heading section.*/
   padding-top: 15px;
+  /* Adds space between the links section and the right side of the page. */
   margin-right: 20px;
+  /* Moves links to the right of the header.  */
   float: right;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
 
-header nav ul {
+.nav-items {
+  /* Removes the bullet points adjecent to each link.  */
   list-style-type: none;
 }
 
-header nav ul li {
+.nav-items li {
+  /* Aligns the links horizontally instead of vertically.  */
   display: inline-block;
+  /* Adds space in-between links.  */
   margin-left: 25px;
 }
 
 .links {
+  /* Keeps link font colour white at all times.  */
   color: #fff;
+  /* Removes underline associated with the anchor tag.  */
   text-decoration: none;
 }
 
+/* 
+=======================================================
+LANDING PAGE IMAGE
+======================================================= 
+*/
+
 .hero {
+  /* Creates an area 800 pixels tall. */
   height: 800px;
+  /* Allows the .hero div cover the width of the entire viewing device. */
   width: 100%;
+  /* Leaves space between image and next section of page.  */
   margin-bottom: 25px;
+  /* Uses the image as a background for the selector .hero  */
   background-image: url("../images/digital-marketing-meeting.jpg");
+  /* Keeps the background image width relative to it's height.  */
   background-size: cover;
+  /* Positions background image in center of screen.  */
   background-position: center;
 }
 
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
-}
+/* 
+=======================================================
+MAIN SECTION
+======================================================= 
+*/
 
 .content {
   width: 75%;
@@ -73,7 +104,20 @@ header nav ul li {
 }
 
 .content img {
+  /* Will not allow image's height to grow beyond 200 pixels.  */
   max-height: 200px;
+}
+
+.float-left {
+  /* Positions any elements with this class to the left.  */
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  /* Positions any elements with this class to the right.  */
+  float: right;
+  margin-left: 25px;
 }
 
 .content h2 {
@@ -88,6 +132,8 @@ p {
 .search-engine-optimization,
 .online-reputation-management,
 .social-media-marketing {
+  /* Creates three identical sections with space around the inside and margin-bottom to seperate them. The font will match with the rest of 
+  the website. Background colour of these sections will be blue. */
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
@@ -96,7 +142,16 @@ p {
   color: #fff;
 }
 
+/* 
+=======================================================
+SIDE BAR SECTION
+======================================================= 
+*/
+
 .benefits {
+  /* This section will be positioned to the right of the content area.
+  It will only take up 20% of the screen and be a slightly different 
+  blue. Again the font and style will be uniform with the site. */
   margin-right: 20px;
   padding: 20px;
   clear: both;
@@ -109,34 +164,50 @@ p {
 
 .benefit-lead,
 .benefit-brand {
+  /* Margin-bottom adjusted to align with the adjacent content area. */
   margin-bottom: 54px;
   color: #fff;
 }
 
 .benefit-cost {
-  margin-bottom: 0px;
   color: #fff;
 }
 
 .benefits h3 {
+  /* Creates space between heading and any element below it. */
   margin-bottom: 10px;
+  /* Centers the heading inside it's parent element. */
   text-align: center;
 }
 
 .benefits img {
+  /* Stops any elements from sharing horizontal space with image. */
   display: block;
+  /* Gives a margin on top and bottom of image. Auto centers image. */
   margin: 10px auto;
+  /* Will not allow image's width to grow beyond 150 pixels.  */
   max-width: 150px;
 }
 
+/* 
+=======================================================
+FOOTER
+======================================================= 
+*/
+
 footer {
+  /* Adds space inside footer element. */
   padding: 30px;
+  /* Stops any 'floated' elements from sharing space with footer. */
   clear: both;
+  /* Font same style as header elements. This time font colour will be black. */
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  /* Centers text inside the footer. */
   text-align: center;
 }
 
 footer h2 {
+  /* Sets size of heading in the footer. */
   font-size: 20px;
 }

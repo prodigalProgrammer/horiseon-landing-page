@@ -19,13 +19,14 @@ There is also a side-bar for the number of benefits that come with Horiseon's as
 
 Here are some of the features I have implemented on the website:
 
-- The title has changed from 'website' to 'Horiseon: Social Solution Services'.
+- The title has changed from 'website' to 'Horiseon: SEO Management'.
 - All links to images now work.
-- Alt attributes added which describe the images throughout the site.
-- HTML tags changed to more descriptive semantic tags.
+- `alt` attributes added which describe the images throughout the site.
+- HTML tags changed to more descriptive **semantic tags**.
 - Consolidated many CSS selectors which reduced the size of the stylesheet.
 - Moved some selectors' positions on the stylesheet in accordance to the area they are displayed on the webpage. This will make them easier to find in case changes need to be made.
 - Adjusted the `.benefits` sections to align with the `.content` sections.
+- Added comments to CSS stylesheet and seperated the CSS into sections as well as explain what the CSS properties do.
 
 ## Credits
 
