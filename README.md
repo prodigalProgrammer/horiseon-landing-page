@@ -1,13 +1,13 @@
 # Horiseon Landing Page
+
 <img src="Horiseon.png" alt="Screenshot of Horiseon Site" width="1000px">
+
 ## Description
 
 Horiseon hired me to refactor their existing landing page and improve the accessibility within the HTML document.
 This will ensure a greater experience for any end users with disabilities like visual impairments, and allow search engines to find the site easier.
 
-## Installation
-
-N/A
+Please find the link to this site at: https://prodigalprogrammer.github.io/horiseon-landing-page/
 
 ## Usage
 
