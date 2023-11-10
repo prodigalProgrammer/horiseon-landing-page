@@ -1,5 +1,5 @@
 # Horiseon Landing Page
-
+<img src="Horiseon.png" alt="Screenshot of Horiseon Site" width="1000px">
 ## Description
 
 Horiseon hired me to refactor their existing landing page and improve the accessibility within the HTML document.
